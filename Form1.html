@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H style="background-color: aquamarine;"> Asignment for Html Forms </H>
+    <BR></BR>
+    <form>
+<label for="fname">First Name:</label><br>        
+<input type="text" id="fname" name="fname">
+<br></br>
+<label for="lname">Last Name:</label> <br>
+<input type="text" id="fname" name="lname">
+<br></br>
+<label for="email">Enter your Email</label><br>
+<input type="email" id="email" name="email">
+<br></br>
+<input type="text" name="occupation" required placeholder="enter parent's occupation">
+<br>
+<p>Gender</p>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">MALE</label> <BR>
+ <input type="radio" id="female" name="gender" value="female">
+ <label for="female">FEMALE</label>
+<br>
+ <input type="radio" id="other" name="gender" value="other">
+<label for="other">OTHERS</label>
+    <br></br>
+<label for="pwd">Passward:</label><br>
+<input type="password" id="pwd" name="pwd">
+<br></br>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+ <option  value="0">please select</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+<br></br>
+<h3>A comment</h3>
+<textarea name="message" style="width:400px; height:200px;">
+</textarea>
+<br></br>
+<button type="button" onclick="alert('are you sure you want to delete?')">Delete me</button>
+<br></br>
+<input type="submit" id="submit">
+    </form>
+    <BR></BR>
+    <form>
+    <H4>Please select all that applies</H4>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <BR></BR>
+        <iframe width="350" height="200"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+      </form>
+</body>
+</html>

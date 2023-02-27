@@ -1,0 +1,29 @@
+ul li{ 
+    color:blue;
+    list-style-type: circle;
+}
+ol li{
+    background:aqua;
+    color: brown;
+    padding : 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+th, td {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+table {
+    border-spacing: 10px
+}
+table {
+    width: 50%;
+    height: 100px;
+}
+
+
